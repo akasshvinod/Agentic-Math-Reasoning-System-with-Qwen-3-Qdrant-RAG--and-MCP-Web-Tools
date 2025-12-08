@@ -152,7 +152,6 @@ Everything runs under a single **LangGraph** compiled graph with `MemorySaver` c
 
 ## 🧱 Project Structure
 
-```
 Math_Agent_Project/
 │
 ├── src/
