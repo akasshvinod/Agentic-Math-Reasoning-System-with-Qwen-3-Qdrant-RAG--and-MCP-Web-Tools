@@ -337,14 +337,13 @@ Differentiate x^3
 
 **Output**
 
-```
+
 Summary:
   The derivative of x^3 with respect to x is 3x^2.
 
 Steps:
   -  Apply the power rule d/dx (x^n) = n·x^(n-1).
   -  Here n = 3, so d/dx (x^3) = 3·x^(3-1) = 3x^2.
-```
 
 ---
 
