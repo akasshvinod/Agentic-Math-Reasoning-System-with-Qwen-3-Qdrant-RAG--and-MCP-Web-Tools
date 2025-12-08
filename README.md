@@ -1,4 +1,4 @@
-# Agentic Math Reasoning System with Qwen 3, Qdrant RAG, and MCP Web Tools
+#  🤖 Agentic Math Reasoning System with Qwen 3, Qdrant RAG, and MCP Web Tools
 
 An industry-grade, human-aligned **Math Tutor Agent** with:
 
@@ -152,6 +152,7 @@ Everything runs under a single **LangGraph** compiled graph with `MemorySaver` c
 
 ## 🧱 Project Structure
 
+```
 Math_Agent_Project/
 │
 ├── src/
@@ -379,5 +380,3 @@ If you want help:
 - Hardening this for production (API, Docker, CI/CD)
 - Optimizing prompts, retrieval, or verification logic
 - Positioning this project in your resume / portfolio
-
-you can extend this README or reach out with specific questions about any module or flow.
