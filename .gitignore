@@ -140,3 +140,15 @@ pytestdebug.log
 *.swp
 *.swo
 *~
+# -------------------------
+# Logs & runtime files
+# -------------------------
+logs/
+*.log
+*.tmp
+*.pid
+*.jsonl
+
+# LangGraph / app logs
+feedback/logs/
+feedback/*.jsonl
