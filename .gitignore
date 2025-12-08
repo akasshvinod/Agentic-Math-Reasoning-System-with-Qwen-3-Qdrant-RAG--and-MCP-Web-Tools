@@ -1,0 +1,142 @@
+# -------------------------
+# Python bytecode & cache
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+.faiss-env/
+.faiss/
+*.envrc
+
+# Conda
+*.conda-env/
+.conda/
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+*.key
+*.pem
+*.crt
+
+# API keys / config (if not templated)
+config.yaml
+config.yml
+config.local.*
+secrets.*
+*.token
+
+# -------------------------
+# Build & packaging
+# -------------------------
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -------------------------
+# Logs & runtime files
+# -------------------------
+logs/
+*.log
+*.tmp
+*.pid
+
+# LangGraph / app logs
+feedback/logs/
+feedback/*.jsonl
+
+# -------------------------
+# Qdrant / vector stores
+# -------------------------
+vectorstore/
+qdrant_storage/
+qdrant_data/
+
+# If you mount this path in Docker:
+# C:/Users/91730/Math_Agent_Project/vectorstore/qdrant
+# keep it ignored via vectorstore/ above.
+
+# -------------------------
+# Checkpoints / cache
+# -------------------------
+.checkpoints/
+.cache/
+.langgraph/
+.cache_dir/
+
+# Sentence-transformers / HF caches (optional)
+huggingface/
+.huggingface/
+~/.cache/huggingface/
+*.bin
+
+# -------------------------
+# Notebooks & outputs
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb~
+*.nbconvert.ipynb
+
+# -------------------------
+# Editors / IDEs
+# -------------------------
+.vscode/
+.vscode-test/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Cursor (VS Code-based)
+.cursor/
+
+# -------------------------
+# OS-specific cruft
+# -------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------------
+# Docker / container
+# -------------------------
+*.dockerfile.*
+docker-compose.override.yml
+.docker/
+.tmp_docker/
+
+# -------------------------
+# Test artifacts
+# -------------------------
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
+pytestdebug.log
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.swp
+*.swo
+*~
