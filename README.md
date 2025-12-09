@@ -327,13 +327,10 @@ Summary:
 Steps:
   -  Take square roots on both sides, giving |x| = 4.
   -  Therefore x can be 4 or -4.
-```
 
 **Input**
 
-```
 Differentiate x^3
-```
 
 **Output**
 
