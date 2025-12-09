@@ -369,10 +369,3 @@ This architecture mirrors modern **agentic AI stacks** used in real-world system
 
 ---
 
-## 💬 Contact / Support
-
-If you want help:
-
-- Hardening this for production (API, Docker, CI/CD)
-- Optimizing prompts, retrieval, or verification logic
-- Positioning this project in your resume / portfolio
